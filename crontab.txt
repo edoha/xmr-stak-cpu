@@ -1,1 +1,1 @@
-* * * * * /miner/checkrate.sh >> /dev/null
+* * * * * /miner/xmrstak/xmr-stak-cpu/checkrate.sh >> /dev/null
