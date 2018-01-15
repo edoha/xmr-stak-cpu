@@ -49,7 +49,7 @@ MINER_PS="/miner/xmr-stak-cpu/bin/xmr-stak-cpu"
 MINER_LOG="/miner/out.log"
 SUB_STRING="Totals:"
 
-HASH_THRESHOLD=20
+HASH_THRESHOLD=5
 DO_SHUTDOWN=0
 
 while IFS= read -r STRING
