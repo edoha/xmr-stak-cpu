@@ -70,6 +70,10 @@ do
 done <"$MINER_LOG"
 
 if [[ $DO_SHUTDOWN == 1 ]]; then
+	CMD="sleep 60"
+	echo $CMD
+	exec $CMD &
+
 	CMD="sudo shutdown now"
 	echo $CMD
 	exec $CMD &
